@@ -24,21 +24,26 @@ header nav{
     font-size: 20px;
 }
 
+
+/*
 .right-placement{
     float: right;
     height: 400px;
 }
+*/
 
 header ul {
     list-style-type: none;
 }
 
 header ul li{
+    flex: wrap;
     display: inline-block;
     margin-left: 20px;
 }
 
 .background-image {
+    display: wrap;
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -51,22 +56,61 @@ a {
     color: white;
 }
 
-.footer {
-    padding: 20px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
+.left-Text{
+    display: flex;
+    margin-bottom: 20px;
+    padding: 10px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #030202;
+}
+
+h2 ul{
+    list-style-type: none;
+}
+
+h2{
+    font-style: bolder;
+    font-size: 50px;
+}
+
+h2 ul li{
+    flex: wrap;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.left-Text img{
+    max-height: 200px;
+}
+
+.content p{
+    display: 1 0 300px;
+    width: 80%;
+    display: inline-block;
+    margin-left: 50px;
+    font-size: 20px;    
+}
+
+.content .first-project{
+    display: 1 0 400px;
+    justify-content: right;
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px;
+    height: 300px;
+    width: 75%;
 }
 
 @media screen and (max-width: 992px) { 
     .content{
-      width: 50%;
+      width: 100%;
     }
     header{
       background-color: black;
     }
   }
-  
+
 @media screen and (max-width: 768px) { 
     .content {
       width: 100%;
@@ -75,6 +119,13 @@ a {
       background-color: lightblue;
     }
   }
+
+.footer {
+    padding: 20px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
 
 .footer h2{
     font-size: 20px;
