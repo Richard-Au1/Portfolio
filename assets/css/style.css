@@ -58,6 +58,24 @@ a {
     text-align: center;
 }
 
+@media screen and (max-width: 992px) { 
+    .content{
+      width: 50%;
+    }
+    header{
+      background-color: black;
+    }
+  }
+  
+@media screen and (max-width: 768px) { 
+    .content {
+      width: 100%;
+    }
+    header {
+      background-color: lightblue;
+    }
+  }
+
 .footer h2{
     font-size: 20px;
 }
