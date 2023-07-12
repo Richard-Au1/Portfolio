@@ -24,6 +24,11 @@ header nav{
     font-size: 20px;
 }
 
+.right-placement{
+    float: right;
+    height: 400px;
+}
+
 header ul {
     list-style-type: none;
 }
