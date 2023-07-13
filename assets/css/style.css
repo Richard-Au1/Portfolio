@@ -50,8 +50,18 @@ header ul li:hover{
     width: 100%;
     margin-bottom: 25px;
     background-image: url(../images/ocean\ view.jpg);
-    background-size: cover;
+    background-size: auto;
     background-position: center;
+}
+
+.word text{
+    position:relative;
+    right: 595px;
+    bottom: 25px;
+    max-height: 40px;
+    max-width: 40px;
+    background-color: teal;
+    color: white;
 }
 
 nav a {
@@ -68,6 +78,17 @@ nav a {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: end;
+}
+
+h3 {
+    position: relative;
+        bottom: 8px;
+    left: 16px;
+}
+
+.bottom-left {
+    position: absolute;
+
 }
 
 .text {
@@ -132,6 +153,7 @@ h2{
     border-width: 1px;
     border-color: var(--turtle);
     min-width: 300px;
+    justify-content: end;
 }
 
 .other-projects img{
