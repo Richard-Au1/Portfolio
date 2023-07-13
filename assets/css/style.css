@@ -65,25 +65,13 @@ h2{
     font-size: 40px;
 }
 
-/*
-h2 ul{
-    list-style-type: none;
-}
-
-
-h2 ul li{
-    flex: wrap;
-    justify-content: end;
-    display: inline-block;
-    margin-left: 20px;
-}
-*/
 .left-Text img{
     max-height: flex;
 }
 
 .content p{
-    display: 1 0 300px;
+    display: flex;
+    flex-wrap: wrap;
     width: 80%;
     display: inline-block;
     margin-left: 50px;
@@ -93,16 +81,32 @@ h2 ul li{
 .content .first-project{
     display: 1 0 400px;
     justify-content: right;
-    display: inline-block;
     margin-bottom: 20px;
     padding: 10px;
     height: 300px;
     width: 75%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: turquoise;
+}
+
+.other-projects{
+    display: flex;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: turquoise;
+}
+
+.other-projects img{
+    width: 100%;
+    min-width: 400px;
 }
 
 @media screen and (max-width: 992px) { 
-    .content{
-      width: 100%;
+    .other-projects{
+      flex-direction: column;
     }
     header{
       background-color: black;
