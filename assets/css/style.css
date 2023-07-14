@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    max-width: 100vw;
 }
 
 :root {
@@ -46,12 +47,28 @@ header ul li:hover{
 }
 .background-image {
     display: wrap;
+    flex-wrap: wrap;
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url(../images/ocean\ view.jpg);
     background-size: auto;
     background-position: center;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#header-aside{
+    max-width: 35%;
+    border-right: solid 2px black;
+    margin-right: 20px;
+}
+
+#content-container{
+    max-width: 65%;
 }
 
 .word text{
@@ -76,28 +93,47 @@ nav a {
     color: #030202;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content:center;
+    flex: 1 1;
 }
 
 h3 {
     position: relative;
-        bottom: 8px;
+    bottom: 8px;
     left: 16px;
 }
 
 .bottom-left {
     position: absolute;
+}
 
+.about-mee{
+    font-style: bolder;
+    font-size: 40px;
+    margin-bottom: 280px;
+    margin-right: 20px;
 }
 
 .text {
     justify-content: left;
     text-align:start;
-}
-
-h2{
     font-style: bolder;
     font-size: 40px;
+    margin-bottom: 775px;
+    margin-right: 20px;
+}
+
+.contactt{
+    font-style: bolder;
+    font-size: 40px;
+    margin-bottom: 270px;
+    margin-right: 20px;
+}
+
+.Resumee{
+    font-style: bolder;
+    font-size: 40px;
+    margin-bottom: 300px;
+    margin-right: 20px;
 }
 
 .contact, .me, .resume{
@@ -144,7 +180,7 @@ h2{
     margin-bottom: 20px;
     padding: 10px;
     height: 300px;
-    width: 75%;
+    width: 100%;
     border-style: solid;
     border-width: 2px;
     border-color: var(--turtle);
