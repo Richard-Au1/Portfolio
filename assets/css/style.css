@@ -11,6 +11,7 @@
     --textStyle1: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
     --textStyle2: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     --g: gray;  
+    --dark: black;
 }   
 
 header {
@@ -64,7 +65,7 @@ main{
 
 #header-aside{
     max-width: 35%;
-    border-right: solid 2px black;
+    border-right: solid 2px var(--dark);
 }
 
 #content-container{
@@ -76,8 +77,17 @@ main{
     bottom: 40px;
     max-height: 75px;
     max-width: 75px;
-    background-color: black;
-    color: white;
+    background-color: var(--dark);
+    color: var(--light);
+}
+
+.word2 text{
+    position:relative;
+    bottom: 18px;
+    max-height: 75px;
+    max-width: 75px;
+    background-color: var(--dark);
+    color: var(--light);
 }
 
 nav a {
@@ -98,7 +108,7 @@ nav a {
 .about-mee{
     font-style: bolder;
     font-size: 40px;
-    margin-bottom: 280px;
+    margin-bottom: 290px;
     margin-right: 20px;
 }
 
@@ -107,7 +117,7 @@ nav a {
     text-align:start;
     font-style: bolder;
     font-size: 40px;
-    margin-bottom: 775px;
+    margin-bottom: 800px;
     margin-right: 20px;
 }
 
@@ -147,7 +157,7 @@ nav a {
 }
 
 .contact a{
-    color: black;
+    color: var(--dark);
 }
 
 .contact a:hover{
@@ -196,7 +206,7 @@ nav a {
       width: 50%;
     }
     header{
-      background-color: black;
+      background-color: var(--dark);
     }
   }
 

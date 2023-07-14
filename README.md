@@ -11,9 +11,11 @@ No installation required to use the website.
 
 ## Usage
 
-The Website diplays a brief synopsis of who I am, the work I have done that is related to coding, contact info to reach out to me, and my resume. In the header there are four buttons that can be pressed to be sent into a section relating on each button pressed. For example, if Work is pressed then it will send the user down to the Work History Section shown below. 
+The Website diplays a brief synopsis of who I am, the work I have done that is related to coding, contact info to reach out to me, and my resume. In the header there are four buttons that can be pressed to be sent into a section relating on each button pressed. Each button will have a gray background when moused over. For example, if Work is pressed then it will send the user down to the Work History Section shown below. 
 ![Alt text](image.png)
 ![Alt text](image-1.png)
+
+Also, in the contact information section, there is a link for my Github repository for user to look at. The Github button will  
 ## Credits
 
 Learning assistants from ASKBCS!
