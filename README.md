@@ -2,23 +2,26 @@
 
 ## Description
 
-Horiseon challenge allowed html and basic css to be implemented into a website to be learned. Fomatting is important to make sure classes, ids, and other elements are called correctly so element's styles are not overriding each other.
-This was a stepping stone on how to compact and be concise calling to the same class's styles so and not have repeating code in the css file. 
+My porfolio diplays a brief synopsis of who I am, the work I have done that is related to coding, contact info to reach out to me, and my resume. 
 
 ## Installation
 
 No installation required to use the website.
 
 ## Usage
+ In the header there are four buttons that can be pressed to be sent into a section relating on each button pressed. Each button will have a gray background when moused over. For example, if Work is pressed then it will send the user down to the Work History Section shown below. 
+![(image.png)](<assets/images/Header button example.png>)
+![(image-1.png)](<assets/images/Header button-workhistory.png>)
 
-The Website diplays a brief synopsis of who I am, the work I have done that is related to coding, contact info to reach out to me, and my resume. In the header there are four buttons that can be pressed to be sent into a section relating on each button pressed. Each button will have a gray background when moused over. For example, if Work is pressed then it will send the user down to the Work History Section shown below. 
-![Alt text](image.png)
-![Alt text](image-1.png)
+Also, in the contact information section, there is a link for my Github repository for user to look at. The Github button will send the user to my github profile. Example shown below.
+![(image-2.png)](<assets/images/Github Homepage.png>)
+![(image-3.png)](<assets/images/Github Homepage.png>)
 
-Also, in the contact information section, there is a link for my Github repository for user to look at. The Github button will  
+Feel free to try out any of the applications on this webpage!
+
 ## Credits
 
-Learning assistants from ASKBCS!
+The mentors I have had along the way.
 
 ## License
 
