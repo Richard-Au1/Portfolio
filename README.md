@@ -2,14 +2,17 @@
 
 ## Description
 
-My porfolio diplays a brief synopsis of who I am, the work I have done that is related to coding, contact info to reach out to me, and my resume. 
+My porfolio diplays a brief synopsis of who I am, the work I have done that is related to coding, contact info to reach out to me, and my resume. The portfolio contains HTML and CSS as of currently.
 
 ## Installation
 
 No installation required to use the website.
 
 ## Usage
- In the header there are four buttons that can be pressed to be sent into a section relating on each button pressed. Each button will have a gray background when moused over. For example, if Work is pressed then it will send the user down to the Work History Section shown below. 
+
+Here is the URL to my Portfolio: https://richard-au1.github.io/Portfolio/
+
+In the header there are four buttons that can be pressed to be sent into a section relating on each button pressed. Each button will have a gray background when moused over. For example, if Work is pressed then it will send the user down to the Work History Section shown below. 
 ![(image.png)](<assets/images/Header button example.png>)
 ![(image-1.png)](<assets/images/Header button-workhistory.png>)
 
