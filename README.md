@@ -1,4 +1,4 @@
-# <Horiseon Homepage>
+# <Portfolio>
 
 ## Description
 
@@ -14,10 +14,12 @@ Here is the URL to my Portfolio: https://richard-au1.github.io/Portfolio/
 
 In the header there are four buttons that can be pressed to be sent into a section relating on each button pressed. Each button will have a gray background when moused over. For example, if Work is pressed then it will send the user down to the Work History Section shown below. 
 ![(image.png)](<assets/images/Header button example.png>)
+-----------------------------------------------------------------------------
 ![(image-1.png)](<assets/images/Header button-workhistory.png>)
 
 Also, in the contact information section, there is a link for my Github repository for user to look at. The Github button will send the user to my github profile. Example shown below.
 ![(image.png)](<assets/images/Github button.png>)
+-----------------------------------------------------------------------------
 ![(image-3.png)](<assets/images/Github Homepage.png>)
 
 Feel free to try out any of the applications on this webpage!

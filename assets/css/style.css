@@ -86,7 +86,26 @@ main{
     bottom: 18px;
     max-height: 75px;
     max-width: 75px;
+    width: 50%;
     background-color: var(--dark);
+    color: var(--light);
+}
+
+.word3 text{
+    position:relative;
+    bottom: 36px;
+    max-height: 75px;
+    max-width: 75px;
+    width: 50%;
+    background-color: var(--dark);
+    color: var(--light);
+}
+
+.word3 img{
+    position:relative;
+    bottom: 18px;
+    max-height: 800px;
+    max-width: 200px;
     color: var(--light);
 }
 
